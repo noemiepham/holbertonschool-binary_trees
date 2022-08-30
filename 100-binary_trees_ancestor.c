@@ -38,7 +38,7 @@ const binary_tree_t *second)
 
 	if (depth_first < depth_second)
 		return (binary_trees_ancestor(first, second->parent));
-	
+
 	else if (depth_first > depth_second)
 		return (binary_trees_ancestor(first->parent, second));
 
