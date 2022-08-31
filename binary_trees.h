@@ -20,13 +20,13 @@ typedef struct binary_tree_s
 	struct binary_tree_s *right;
 } binary_tree_t;
 
-// Structure for Binary Search Tree
+/* Structure for Binary Search Tree */
 typedef struct binary_tree_s bst_t;
 
-// Structure for Self Balancing
+/* Structure for Self Balancing */
 typedef struct binary_tree_s avl_t;
 
-// Structure for Max Binary Heap
+/* Structure for Max Binary Heap */
 typedef struct binary_tree_s heap_t;
 
 /* Mandatory tasks */
