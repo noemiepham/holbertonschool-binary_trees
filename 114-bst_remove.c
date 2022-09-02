@@ -24,7 +24,7 @@ bst_t *bst_remove(bst_t *root, int value)
 		else if (root->left && root->right)
 		{
 			next_root = root->right;
-			while (nexit_root->left)
+			while (next_root->left)
 				next_root = next_root->left;
 			root->n = next_root->n;
 			root->right = bst_remove(root->right, next_root->n);
