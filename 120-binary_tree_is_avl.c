@@ -1,4 +1,6 @@
 #include "binary_trees.h"
+#include "14-binary_tree_balance.c"
+#include "110-binary_tree_is_bst.c"
 
 /**
  * binary_tree_is_avl - checks if a binary tree is a valid AVL Tree
